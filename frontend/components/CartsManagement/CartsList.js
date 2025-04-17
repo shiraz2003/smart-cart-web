@@ -1,0 +1,1 @@
+// frontend/components/CartsManagement/CartsList.js
