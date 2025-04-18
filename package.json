@@ -1,27 +1,15 @@
 {
   "name": "smart-cart-web",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "start-dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm start\""
   },
-  "dependencies": {
-    "firebase": "^11.4.0",
-    "next": "15.2.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.2",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "concurrently": "^8.2.2"
   }
 }

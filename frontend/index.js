@@ -1,3 +1,13 @@
-// frontend/index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-console.log("Frontend application starting...");
+function App() {
+  return (
+    <div>
+      <h1>Frontend is working</h1>
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
